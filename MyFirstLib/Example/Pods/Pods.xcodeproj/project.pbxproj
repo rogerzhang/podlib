@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		163DC390363C339936B3114C72FE6716 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		2291FC95219ACBF400F1EF55 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291FC92219ACB1D00F1EF55 /* Person.swift */; };
+		2291FCD6219D440500F1EF55 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2291FCD4219D43FA00F1EF55 /* Person.swift */; };
 		293F9960B08003218B222D258FE77581 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77B07CA7D221E3EC46B93C00BF37CDE /* QuartzCore.framework */; };
 		3789C9A58428B7FCCD5359D2A533AB6A /* Pods-MyFirstLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 574E06F470B223CDA7139A74EDD529C6 /* Pods-MyFirstLib_Example-dummy.m */; };
 		387D066A1A34ED7DF0F716CB3A8B746D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
@@ -73,7 +73,7 @@
 		13EC89381EFF4B8053F56AD2316546E1 /* Pods-MyFirstLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyFirstLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		1654AFA34B797E76E620172E6669559A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1FEA90D3F7046B4F42D42510F79519A2 /* Pods-MyFirstLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFirstLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2291FC92219ACB1D00F1EF55 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		2291FCD4219D43FA00F1EF55 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Person.swift; path = MyFirstLib/Classes/Person.swift; sourceTree = "<group>"; };
 		29978FB79C88C4C980CB33D0A0A68DFD /* MyFirstLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyFirstLib-dummy.m"; sourceTree = "<group>"; };
 		2C7E920A9D9C3D3D8AFA7A2DBE42F16D /* Pods-MyFirstLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyFirstLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D8DF347E06853B503FE6E99030CD4AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -322,7 +322,7 @@
 		E0D2125557AB03BE9766053E3224A070 /* MyFirstLib */ = {
 			isa = PBXGroup;
 			children = (
-				2291FC92219ACB1D00F1EF55 /* Person.swift */,
+				2291FCD4219D43FA00F1EF55 /* Person.swift */,
 				909F47BD49F3BF51156F46483848EE21 /* ReplaceMe.swift */,
 				4B735A9947818DDD563B8B677BD7BFBB /* Pod */,
 				1EEA25A9BC3D0F7892A918F388499A93 /* Support Files */,
@@ -577,7 +577,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2291FC95219ACBF400F1EF55 /* Person.swift in Sources */,
+				2291FCD6219D440500F1EF55 /* Person.swift in Sources */,
 				954F3A6511339C969679DA83985736F5 /* MyFirstLib-dummy.m in Sources */,
 				AFA4BCAD5F7F98528E92C2BCC122FF95 /* ReplaceMe.swift in Sources */,
 			);
