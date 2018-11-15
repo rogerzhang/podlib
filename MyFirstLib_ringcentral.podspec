@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'MyFirstLib'
-  s.version          = '0.1.0'
+  s.name             = 'MyFirstLib_ringcentral'
+  s.version          = '1.0.1'
   s.summary          = 'A short description of MyFirstLib.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Roger Zhang/MyFirstLib'
+  s.homepage         = 'https://github.com/rogerzhang/podlib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Roger Zhang' => 'roger.zhang@ringcentral.com' }
-  s.source           = { :git => 'https://github.com/Roger Zhang/MyFirstLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/rogerzhang/podlib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
